@@ -1,9 +1,9 @@
 <?php
 
 
-namespace Aqila_theme\Inc\Traits;
+namespace AQUILA_THEME\Inc\Traits;
 
-traits Singleton {
+trait Singleton {
     public function __construct() {
 
     }
