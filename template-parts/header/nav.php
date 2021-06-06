@@ -14,7 +14,7 @@
     the_custom_logo();
   }
   ?>
-  <a class="navbar-brand" href="#">Navbar</a>
+  <a class="navbar-brand" href="#">Navbar</a> 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -48,3 +48,11 @@
     </form>
   </div>
 </nav>
+<?php 
+wp_nav_menu(
+  [
+    'theme_location' => 'extra-menu',
+    'container_class' => 'my_extra_menu_class'
+  ]
+);
+?>
