@@ -10,7 +10,7 @@ get_header();
 
 
 <div class="content">
-    <?php esc_html_e( 'Content Index', 'aquila' ); ?>
+    <?php esc_html_e( 'Single post', 'aquila' ); ?>
 </div>
 
 <?php 
